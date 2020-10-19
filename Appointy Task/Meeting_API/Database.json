@@ -1,0 +1,317 @@
+
+
+
+
+
+{
+  "Particpant": [{
+    "CusId": "1001",
+    "Datatype": "Info",
+    "DBStoreLink": "mongodb://localhost/api/meetings:",
+    "Name": {
+      "Cusname": "Uttank Kaul",
+      "Attributes": {
+      "Cusemail": "appointy@appoint.com",
+      "RSVPCheck": "Yes"
+      }
+    }
+   
+  }],
+  "MeetingInfo": [
+    {
+      
+      "MeetingId": "100",
+      "LoginTime": "2020-2-12 8:30:10 UTC",
+      "CusStartTime": "2020-2-12 09:00:24 UTC",
+      "CusEndTime": "2020-2-12 10:05:00 UTC",
+      "CusTimeStamp":"2020-10-18 08:00:00 UTC",
+      "MeetingDetails": {
+          "MeetingLink": "mongodb://localhost/api/meetings?MeetingId==100" ,
+        "NoOfParticpants": 60,
+        "Title":"DBMS"
+        }
+    }
+  ]
+}
+
+
+{
+    "Teacher": [{
+      "CusId": "1002",
+      "Datatype": "Info",
+      "attributes": {
+        "Cusname": "Abhishek",
+        "Cusemail": "intern@appoint.com",
+        "RSVPCheck": "No"
+        
+      }
+     
+    }],
+    "MeetingInfo": [
+      {
+        
+        "MeetingId": "102",
+        "LoginTime": "2020-2-12 7:30:10 UTC",
+        "CusStartTime": "2020-2-12 10:00:24 UTC",
+        "CusEndTime": "2020-2-12 12:05:00 UTC",
+        "CusTimeStamp":"2020-10-18 09:00:00 UTC",
+        "MeetingDetails": {
+          "NoOfParticpants": 60,
+          "Title":"DBMS"
+          }
+      }
+    ]
+  
+
+}
+{
+    "Particpant": [{
+      "CusId": "1020",
+      "Datatype": "Info",
+      "DBStoreLink": "mongodb://localhost/api/meetings:",
+      "Name": {
+        "Cusname": "Markus",
+        "Attributes": {
+        "Cusemail": "appointy@appoint.com",
+        "RSVPCheck": "Yes"
+        }
+      }
+     
+    }],
+    "MeetingInfo": [
+      {
+        
+        "MeetingId": "101",
+        "LoginTime": "2020-2-12 20:30:10 UTC",
+        "CusStartTime": "2020-2-12 22:20:24 UTC",
+        "CusEndTime": "2020-2-12 23:05:00 UTC",
+        "CusTimeStamp":"2020-10-18 08:00:00 UTC",
+        "MeetingDetails": {
+            "MeetingLink": "mongodb://localhost/api/meetings?MeetingId==101" ,
+          "NoOfParticpants": 40,
+          "Title":"InternshipTraining"
+          }
+      }
+    ]
+  }
+  
+  
+  {
+      "Teacher": [{
+        "CusId": "1002",
+        "Datatype": "Info",
+        "attributes": {
+          "Cusname": "NORA",
+          "Cusemail": "intern_teacher_1@appoint.com",
+          "RSVPCheck": "Maybe"
+          
+        }
+       
+      }],
+      "MeetingInfo": [
+        {
+          
+          "MeetingId": "102",
+          "LoginTime": "2020-2-12 7:30:10 UTC",
+          "CusStartTime": "2020-2-12 10:00:24 UTC",
+          "CusEndTime": "2020-2-12 12:05:00 UTC",
+          "CusTimeStamp":"2020-10-18 09:00:00 UTC",
+          "MeetingDetails": {
+            "NoOfParticpants": 40,
+            "Title":"InternshipTraining"
+            }
+        }
+      ]
+    
+  
+  }
+  {
+    "Particpant": [{
+      "CusId": "1003",
+      "Datatype": "Info",
+      "DBStoreLink": "mongodb://localhost/api/meetings:",
+      "Name": {
+        "Cusname": "Chira Freeman",
+        "Attributes": {
+        "Cusemail": "appointy_db@appoint.com",
+        "RSVPCheck": "No"
+        }
+      }
+     
+    }],
+    "MeetingInfo": [
+      {
+        
+        "MeetingId": "103",
+        "LoginTime": "2020-2-12 13:30:00 UTC",
+        "CusStartTime": "2020-2-12 13:45:00 UTC",
+        "CusEndTime": "2020-2-12 14:45:00 UTC",
+        "CusTimeStamp":"2020-10-18 18:00:00 UTC",
+        "MeetingDetails": {
+            "MeetingLink": "mongodb://localhost/api/meetings?MeetingId== 103 page=2 " ,
+          "NoOfParticpants": 38,
+          "Title":"Quantum Mechnaics Advanced"
+          }
+      }
+    ]
+  }
+  
+  
+  {
+      "Teacher": [{
+        "CusId": "1002",
+        "Datatype": "Info",
+        "attributes": {
+          "Cusname": "Abhishek",
+          "Cusemail": "intern_teahcer_3@appoint.com",
+          "RSVPCheck": "Yes"
+          
+        }
+       
+      }],
+      "MeetingInfo": [
+        {
+          
+          "MeetingId": "102",
+          "LoginTime": "2020-2-12 7:30:10 UTC",
+          "CusStartTime": "2020-2-12 13:00:00 UTC",
+          "CusEndTime": "2020-2-12 14:45:00 UTC",
+          "CusTimeStamp":"2020-10-18 09:00:00 UTC",
+          "MeetingDetails": {
+            "NoOfParticpants": 38,
+            "Title":"Quantum Mechanics Advanced"
+            }
+        }
+      ]
+    
+  
+  }
+  {
+    "Particpant": [{
+      "CusId": "1003",
+      "Datatype": "Info",
+      "DBStoreLink": "mongodb://localhost/api/meetings:",
+      "Name": {
+        "Cusname": "Chira Freeman",
+        "Attributes": {
+        "Cusemail": "appointy_db@appoint.com",
+        "RSVPCheck": "No"
+        }
+      }
+     
+    }],
+    "MeetingInfo": [
+      {
+        
+        "MeetingId": "103",
+        "LoginTime": "2020-2-12 13:30:00 UTC",
+        "CusStartTime": "2020-2-13 13:45:00 UTC",
+        "CusEndTime": "2020-2-13 14:45:00 UTC",
+        "CusTimeStamp":"2020-10-10 18:00:00 UTC",
+        "MeetingDetails": {
+        "MeetingLink": "mongodb://localhost/api/meetings?MeetingId== 103 page=3 " ,
+          "NoOfParticpants": 48,
+          "Title":"Quantum Mechnaics Basics"
+          }
+      }
+    ]
+  }
+  
+  
+  {
+      "Teacher": [{
+        "CusId": "1002",
+        "Datatype": "Info",
+        "attributes": {
+          "Cusname": "Abhishek",
+          "Cusemail": "intern_teahcer_3@appoint.com",
+          "RSVPCheck": "Yes"
+          
+        }
+       
+      }],
+      "MeetingInfo": [
+        {
+          
+          "MeetingId": "102",
+          "LoginTime": "2020-2-13 7:30:10 UTC",
+          "CusStartTime": "2020-2-13 13:00:00 UTC",
+          "CusEndTime": "2020-2-13 14:45:00 UTC",
+          "CusTimeStamp":"2020-10-12 09:00:00 UTC",
+          "MeetingDetails": {
+            "NoOfParticpants": 38,
+            "Title":"Quantum Mechanics Basics"
+            }
+        }
+      ]
+    
+  
+  }
+  {
+    "Particpant": [{
+      "CusId": "1004",
+      "Datatype": "Info",
+      "DBStoreLink": "mongodb://localhost/api/meetings:",
+      "Name": {
+        "Cusname": "Martin Garrix",
+        "Attributes": {
+        "Cusemail": "appointy_1_db@appoint.com",
+        "RSVPCheck": "No"
+        }
+      }
+     
+    }],
+    "MeetingInfo": [
+      {
+        
+        "MeetingId": "103",
+        "LoginTime": "2020-2-12 13:30:00 UTC",
+        "CusStartTime": "2020-2-13 13:45:00 UTC",
+        "CusEndTime": "2020-2-13 13:35:00 UTC",
+        "CusTimeStamp":"2020-10-10 18:00:00 UTC",
+        "MeetingDetails": {
+        "MeetingLink": "mongodb://localhost/api/meetings?MeetingId== 105 page=4 " ,
+          "NoOfParticpants": 48,
+          "Title":"Advaced Calclus"
+          }
+      }
+    ]
+  }
+  
+  
+  {
+      "Teacher": [{
+        "CusId": "1004",
+        "Datatype": "Info",
+        "attributes": {
+          "Cusname": "Caleb",
+          "Cusemail": "intern_teahcer_4@appoint.com",
+          "RSVPCheck": "Yes"
+          
+        }
+       
+      }],
+      "MeetingInfo": [
+        {
+          
+          "MeetingId": "103",
+          "LoginTime": "2020-2-13 7:30:10 UTC",
+          "CusStartTime": "2020-2-13 13:00:00 UTC",
+          "CusEndTime": "2020-2-13 13:35:00 UTC",
+          "CusTimeStamp":"2020-10-12 09:00:00 UTC",
+          "MeetingDetails": {
+            "NoOfParticpants": 40,
+            "Title":"Advanced Calc"
+            }
+        }
+      ]
+    
+  
+  }
+
+
+
+POST /MettingInfo? MeetingID && CusStartTime == "2020-2-13 13:00:00"
+GET /MeetingInfo?include=MeetingID == "102"  HTTP/1.1
+GET /MeetingInfo?CusStartTime == "2020-2-12 13:00:00" && CusEndTime == "2020-2-18 13:45:00" HTTP /1.1
+GET /MeetingInfo?CusName == "Uttank"
