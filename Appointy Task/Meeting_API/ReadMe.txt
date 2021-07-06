@@ -4,7 +4,7 @@ Meeting URL : mongodb://localhost/api/meetings: OR mongodb://localhost/api/meeti
 
 Command in cmd (powershell) : \Appointy\Meeting_API> go run APIShell.go
 
-Samplew OUTPUT : 
+Sample OUTPUT : 
 API server listening at: 127.0.0.1:35840
 Connction... estalished... 
 Hi! Welcome to the Appointy API. Thank you for joining the experiece!.....
